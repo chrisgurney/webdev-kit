@@ -26,3 +26,5 @@ Install Gulp CLI
 	$ gulp
 
 This task cleans the output folder (`/dist`), compiles all web files, and runs a local server for development, watching for changes.
+
+Open http://localhost:8080/
