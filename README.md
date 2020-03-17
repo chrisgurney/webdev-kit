@@ -4,21 +4,25 @@ Very basic starting point for web development.
 
 Does not include web tooling for deployments (minification, etc.)
 
-# Installation
+# Setup Mac
+
+Install XCode Developer Tools
+
+	$ xcode-select --install
+
+Install node/npm from https://nodejs.org/
+
+Install Gulp CLI
+
+	$ sudo npm install --global gulp-cli
+
+# Install
 
     $ cd /path/to/project
     $ npm install
 
+# Start Server
 
+	$ gulp
 
-npm install --save-dev gulp
-
-
-
-## Tasks
-
-This section describes the main tasks available. See `gulpfile.js` for subtasks.
-
-### `gulp`
-
-Cleans the output folder (`/dist`), compiles all web files, and runs a local server for development, watching for changes.
+This task cleans the output folder (`/dist`), compiles all web files, and runs a local server for development, watching for changes.
