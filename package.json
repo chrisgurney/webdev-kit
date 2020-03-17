@@ -1,0 +1,17 @@
+{
+  "name": "Webdev Kit",
+  "version": "1.0.0",
+  "description": "Webdev Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Gurney",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-connect": "^5.7.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "src": {
+  	"base": "src/",
+  	"css": "src/css/**/*",
+    "html": "src/**.html",
+  	"images": "src/images/**/*",
+  	"js": "src/js/**/*",
+    "metaFiles": [
+      "src/sw.js"
+    ],
+    "vendor": "src/vendor/**/*"
+  },
+
+  "output": {
+   	"base": "dist/",
+   	"css": "dist/css",
+  	"html": "dist/",
+  	"images": "dist/images/",
+  	"js": "dist/js/",  	
+  	"vendor": "dist/vendor"
+  }
+}
