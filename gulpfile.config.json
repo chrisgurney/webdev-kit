@@ -6,7 +6,7 @@
   	"images": "src/images/**/*",
   	"js": "src/js/**/*",
     "metaFiles": [
-      "src/sw.js"
+      "src/.htaccess"
     ],
     "vendor": "src/vendor/**/*"
   },
