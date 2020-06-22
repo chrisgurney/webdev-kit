@@ -4,6 +4,7 @@
   	"css": "src/css/**/*",
     "html": "src/**.html",
   	"images": "src/images/**/*",
+    "includes": "src/includes",
   	"js": "src/js/**/*",
     "metaFiles": [
       "src/.htaccess"

@@ -1,6 +1,7 @@
 var Connect = require('gulp-connect');
 var Del = require('del');
 var Gulp = require('gulp');
+var Include = require('gulp-file-include');
 
 /* ************* */
 /* Configuration */
@@ -23,6 +24,10 @@ Gulp.task('build:css', function(done) {
 Gulp.task('build:html', function(done) {
 
   return Gulp.src(paths.src.html)
+		.pipe(Include({
+			prefix: '@@',
+			basepath: paths.src.includes
+		}))  
 		.pipe(Gulp.dest(paths.output.base))
 		.pipe(Connect.reload());	 
 
