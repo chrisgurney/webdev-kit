@@ -1,4 +1,4 @@
-.DS_Store
+**/.DS_Store
 node_modules
 
 # probably want to remove following if using for an actual project
